@@ -1,5 +1,8 @@
+import cProfile
+
+
 class Calculator:
-    @staticmethod
+    #@staticmethod
     def sum(first_input, second_input):
         return first_input + second_input
 
@@ -16,3 +19,4 @@ print(Calculator.sum(10, 5))
 # Конкатенация двух строк
 string = StringTotal()
 print(string.__add__("Hello", "people"))
+
